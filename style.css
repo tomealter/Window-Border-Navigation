@@ -25,13 +25,15 @@
 .nav-on{
 	border: solid 30px;
 	border-top-width: 90px;
-	transition: border .2s, border-top-width .2s;
+	transition: border .2s, border-top-width .2s, background-color .2s;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .nav-off{
 	border: solid 0px;
 	border-top-width: 0px;
-	transition: border .2s, border-top-width .2s;
+	transition: border .2s, border-top-width .2s, background-color .2s;
+	background-color: rgba(0, 0, 0, 0);
 }
 
 /*********************************************
